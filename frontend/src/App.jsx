@@ -9,7 +9,6 @@ import Internships from "./pages/Internships";
 import Applications from "./pages/Applications";
 import Certificates from "./pages/Certificates";
 import Skills from "./pages/Skills";
-import StudentSkills from "./pages/StudentSkills";
 
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
         <Route path="/applications" element={<Applications />} />
         <Route path="/certificates" element={<Certificates />} />
         <Route path="/skills" element={<Skills />} />
-        <Route path="/student-skills" element={<StudentSkills />} />
       </Routes>
 
     </BrowserRouter>
